@@ -324,10 +324,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PrivateUtilLib_Example/Pods-PrivateUtilLib_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PrivateBaseLib/PrivateBaseLib.framework",
 				"${BUILT_PRODUCTS_DIR}/PrivateUtilLib/PrivateUtilLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PrivateBaseLib.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PrivateUtilLib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

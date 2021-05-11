@@ -7,12 +7,14 @@
 //
 
 #import "LAppDelegate.h"
+#import <PrivateUtilLib/PrivateUtilLib.h>
 
 @implementation LAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [PrivateUtilLib printHelloWorld];
     return YES;
 }
 

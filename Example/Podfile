@@ -1,9 +1,13 @@
+
+source 'https://github.com/fengyang0329/Specs.git' # 私有库
+
 use_frameworks!
 
 platform :ios, '9.0'
 
 target 'PrivateUtilLib_Example' do
   pod 'PrivateUtilLib', :path => '../'
+  pod 'PrivateBaseLib', '0.1.0'
 
   target 'PrivateUtilLib_Tests' do
     inherit! :search_paths

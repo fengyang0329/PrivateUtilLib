@@ -1,0 +1,24 @@
+PODS:
+  - PrivateBaseLib (0.1.0)
+  - PrivateUtilLib (0.1.0):
+    - PrivateBaseLib (~> 0.1.0)
+
+DEPENDENCIES:
+  - PrivateBaseLib (= 0.1.0)
+  - PrivateUtilLib (from `../`)
+
+SPEC REPOS:
+  https://github.com/fengyang0329/Specs.git:
+    - PrivateBaseLib
+
+EXTERNAL SOURCES:
+  PrivateUtilLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PrivateBaseLib: d1c5de51de6364e30fc746112804451ddc313ca6
+  PrivateUtilLib: 565bf235c452ec27784e81159bb66a9e59dbcde9
+
+PODFILE CHECKSUM: 5ef1824cec92825c9cf114c1142e9e7c7ebe4425
+
+COCOAPODS: 1.8.4
