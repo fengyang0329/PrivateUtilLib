@@ -6,7 +6,14 @@
 //
 
 #import "PrivateUtilLib.h"
+#import <PrivateBaseLib/PrivateBaseLib.h>
 
 @implementation PrivateUtilLib
+
++ (void)printHelloWorld
+{
+    [PrivateBaseLib printHelloWorld];
+    NSLog(@"UtilLib Print Hello World !");
+}
 
 @end

@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PrivateUtilLib : NSObject
 
++ (void)printHelloWorld;
 @end
 
 NS_ASSUME_NONNULL_END
