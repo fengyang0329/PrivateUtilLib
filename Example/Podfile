@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PrivateUtilLib_Example' do
+  pod 'PrivateUtilLib', :path => '../'
+
+  target 'PrivateUtilLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
